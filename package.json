@@ -6,7 +6,16 @@
   "private": true,
   "type": "module",
   "linked": {
-    "kind": "app"
+    "kind": "app",
+    "unpublishedPackages": {
+      "scnd-ont": {
+        "repo": "https://github.com/linked-cm-testing/test1-ont-scnd.git"
+      },
+      "second-proj-code-assets": {
+        "repo": "https://github.com/linked-cm-testing/test1-assets-second-proj-code.git"
+      }
+    },
+    "defaultOntology": "scnd-ont"
   },
   "author": {
     "name": "",
